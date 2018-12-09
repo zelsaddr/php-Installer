@@ -1,8 +1,8 @@
-# php5.6-Installer [ BASH ]
-PHP 5.6 Automate Installer <br>
+# php-Installer [ BASH ]
+PHP Automate Installer <br>
 Open Terminal :
-- git clone https://github.com/zelsaddr/php5.6-Installer.git
-- cd php5.6-Installer/
-- chmod +x php5.6.sh
+- git clone https://github.com/zelsaddr/php-Installer.git
+- cd php-Installer/
+- chmod +x php5.6.sh or php7.0.sh
 - su ( need root user permission )
-- ./php5.6.sh
+- ./php5.6.sh or ./php7.0.sh

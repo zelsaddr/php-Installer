@@ -32,7 +32,7 @@ if [[ $opt == "y" ]]; then
         apt-get update &> /dev/null
     echo -e $biru"[!] Installing all php5.6 requirements .."$hapud
     sleep 1
-        apt-get install php5.6 php5.6-mcrypt php5.6-mbstring php5.6-curl php5.6-cli php5.6-mysql php5.6-gd php5.6-intl php5.6-xsl -y &> /dev/null
+        apt-get install php5.6 php5.6-mcrypt php5.6-mbstring php5.6-curl php5.6-cli php5.6-mysql php5.6-gd php5.6-bcmath php5.6-intl php5.6-xsl -y &> /dev/null
     phpv=$(php -v | grep -i "5.6")
     if [[ $phpv ]]; then
         echo -e $cyan"[>] Success Changing PHP Version to 5.6"$hapud

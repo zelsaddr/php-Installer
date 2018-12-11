@@ -32,7 +32,7 @@ if [[ $opt == "y" ]]; then
         apt-get update &> /dev/null
     echo -e $biru"[!] Installing all php7.0 requirements .."$hapud
     sleep 1
-        apt-get install php7.0 php7.0-mcrypt php7.0-mbstring php7.0-curl php7.0-cli php7.0-mysql php7.0-gd php7.0-intl php7.0-xsl -y &> /dev/null
+        apt-get install php7.0 php7.0-mcrypt php7.0-mbstring php7.0-curl php7.0-cli php7.0-mysql php7.0-gd php7.0-bcmath php7.0-intl php7.0-xsl -y &> /dev/null
     phpv=$(php -v | grep -i "7.0")
     if [[ $phpv ]]; then
         echo -e $cyan"[>] Success Changing PHP Version to 7.0"$hapud
